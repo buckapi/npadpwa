@@ -17,8 +17,8 @@ export const ScriptStore: Scripts[] = [
   {name: 'bootstrap.bundle', src: './assets/assetsNpad/vendor/bootstrap/js/bootstrap.bundle.min.js'},
   {name: 'aos', src: './assets/assetsNpad/vendor/aos-next/dist/aos.js'},
   {name: 'slick', src: './assets/assetsNpad/vendor/slick/slick.min.js'},
-  {name: 'counterup', src: './assets/assetsNpadvendor/vendor/jquery.counterup.min.js'},
-  {name: 'waypoints', src: './assets/assetsNpadvendor/vendor/jquery.waypoints.min.js'},
-  {name: 'fancybox', src: './assets/assetsNpadvendor/vendor/fancybox/dist/jquery.fancybox.min.js'},
-  {name: 'theme', src: './assets/assetsNpadvendor/js/theme.js'}
+  {name: 'counterup', src: './assets/assetsNpad/vendor/jquery.counterup.min.js'},
+  {name: 'waypoints', src: './assets/assetsNpad/vendor/jquery.waypoints.min.js'},
+  {name: 'fancybox', src: './assets/assetsNpad/vendor/fancybox/dist/jquery.fancybox.min.js'},
+  {name: 'theme', src: './assets/assetsNpad/vendor/js/theme.js'}
 ];
