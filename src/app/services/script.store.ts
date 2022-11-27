@@ -20,5 +20,5 @@ export const ScriptStore: Scripts[] = [
   {name: 'counterup', src: './assets/assetsNpad/vendor/jquery.counterup.min.js'},
   {name: 'waypoints', src: './assets/assetsNpad/vendor/jquery.waypoints.min.js'},
   {name: 'fancybox', src: './assets/assetsNpad/vendor/fancybox/dist/jquery.fancybox.min.js'},
-  {name: 'theme', src: './assets/assetsNpad/vendor/js/theme.js'}
+  {name: 'theme', src: './assets/assetsNpad/js/theme.js'}
 ];
