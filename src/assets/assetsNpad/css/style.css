@@ -1,15 +1,15 @@
-@import url(../fonts/gordita/stylesheet.css);
-@import url(../vendor/bootstrap/css/bootstrap.min.css);
+@import url(assets/assetsNpad/fonts/gordita/stylesheet.css);
+@import url(assets/assetsNpad/vendor/bootstrap/css/bootstrap.min.css);
 @import url(navbar.css);
 @import url(framework.css);
-@import url(../fonts/bootstrap-icons/font-css.css);
-@import url(../fonts/font-awesome/css/all.min.css);
-@import url(../vendor/fancybox/dist/jquery.fancybox.min.css);
-@import url(../vendor/slick/slick.css);
+@import url(assets/assetsNpad/fonts/bootstrap-icons/font-css.css);
+@import url(assets/assetsNpad/fonts/font-awesome/css/all.min.css);
+@import url(assets/assetsNpad/vendor/fancybox/dist/jquery.fancybox.min.css);
+@import url(assets/assetsNpad/vendor/slick/slick.css);
 @import url(animate.min.css);
 @import url(custom-animation.css);
-@import url(../vendor/skills-master/habilidades.css);
-@import url(../vendor/aos-next/dist/aos.css);
+@import url(assets/assetsNpad/vendor/skills-master/habilidades.css);
+@import url(assets/assetsNpad/vendor/aos-next/dist/aos.css);
 ::-webkit-scrollbar {
     width: 5px
 }
