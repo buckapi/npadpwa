@@ -1,4 +1,16 @@
-@import url(../fonts/gordita/stylesheet.css);@import url(../vendor/bootstrap/css/bootstrap.min.css);@import url(navbar.css);@import url(framework.css);@import url(../fonts/bootstrap-icons/font-css.css);@import url(../fonts/font-awesome/css/all.min.css);@import url(../vendor/fancybox/dist/jquery.fancybox.min.css);@import url(../vendor/slick/slick.css);@import url(animate.min.css);@import url(custom-animation.css);@import url(../vendor/skills-master/habilidades.css);@import url(../vendor/aos-next/dist/aos.css);::-webkit-scrollbar {
+@import url(../fonts/gordita/stylesheet.css);
+@import url(../vendor/bootstrap/css/bootstrap.min.css);
+@import url(navbar.css);
+@import url(framework.css);
+@import url(../fonts/bootstrap-icons/font-css.css);
+@import url(../fonts/font-awesome/css/all.min.css);
+@import url(../vendor/fancybox/dist/jquery.fancybox.min.css);
+@import url(../vendor/slick/slick.css);
+@import url(animate.min.css);
+@import url(custom-animation.css);
+@import url(../vendor/skills-master/habilidades.css);
+@import url(../vendor/aos-next/dist/aos.css);
+::-webkit-scrollbar {
     width: 5px
 }
 
@@ -1570,7 +1582,7 @@ body .btn-eight:hover {
     bottom: 0;
     left: 0;
     z-index: -1;
-    background: url(../images/assets/bg_02.svg) repeat center;
+    background: url(assets/assetsNpad/images/assets/bg_02.svg) repeat center;
     background-size: cover
 }
 
@@ -1816,7 +1828,7 @@ body .btn-eight:hover {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background: url(../images/assets/bg_03.svg) no-repeat center;
+    background: url(assets/assetsNpad/images/assets/bg_03.svg) no-repeat center;
     background-size: cover
 }
 
@@ -2016,7 +2028,7 @@ body .btn-eight:hover {
 .partner-section-one {
     padding: 150px 0 200px;
     margin-top: -70px;
-    background: url(../images/assets/bg_04.svg) no-repeat center;
+    background: url(assets/assetsNpad/images/assets/bg_04.svg) no-repeat center;
     background-size: cover
 }
 
@@ -2056,7 +2068,7 @@ body .btn-eight:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url(../images/assets/bg_04.svg) no-repeat center;
+    background: url(assets/assetsNpad/images/assets/bg_04.svg) no-repeat center;
     background-size: cover;
     z-index: -1;
     opacity: .85
@@ -2616,7 +2628,7 @@ body .btn-eight:hover {
 .fancy-feature-four .bg-wrapper {
     padding: 120px 0 0;
     position: relative;
-    background: url(../images/assets/bg_06.svg) no-repeat center;
+    background: url(assets/assetsNpad/images/assets/bg_06.svg) no-repeat center;
     background-size: cover
 }
 
@@ -3139,7 +3151,7 @@ body .btn-eight:hover {
 }
 
 .accordion-style-one .accordion-button::after {
-    content: url(../images/icon/icon_16.svg);
+    content: url(assets/assetsNpad/images/icon/icon_16.svg);
     background-image: none;
     width: auto;
     height: auto
@@ -3351,7 +3363,7 @@ body .btn-eight:hover {
 .hero-banner-three {
     position: relative;
     z-index: 5;
-    background: url(../images/assets/bg_07.svg) no-repeat center top;
+    background: url(assets/assetsNpad/images/assets/bg_07.svg) no-repeat center top;
     background-size: cover;
     padding: 235px 0 320px
 }
@@ -3595,7 +3607,7 @@ body .btn-eight:hover {
 }
 
 .block-style-eight.shape-arrow:after,.block-style-eight.shape-arrow:before {
-    content: url(../images/shape/shape_24.svg);
+    content: url(assets/assetsNpad/images/shape/shape_24.svg);
     position: absolute;
     top: 15%
 }
@@ -4162,7 +4174,7 @@ body .btn-eight:hover {
 }
 
 .block-style-eleven.shape-arrow:after,.block-style-eleven.shape-arrow:before {
-    content: url(../images/shape/shape_32.svg);
+    content: url(assets/assetsNpad/images/shape/shape_32.svg);
     position: absolute;
     top: 13%
 }
@@ -4290,7 +4302,7 @@ body .btn-eight:hover {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../images/assets/bg_08.svg) no-repeat center;
+    background: url(assets/assetsNpad/images/assets/bg_08.svg) no-repeat center;
     background-size: cover;
     z-index: -1
 }
