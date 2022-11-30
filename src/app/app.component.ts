@@ -52,9 +52,18 @@ public preview :any={
   ){
     document.getElementById('modal1');
      this.script.load(     
-       'glightbox',
-          'swiper'
+      
+   'jquery',
+   'bootstrap.bundle',
+   'aos',
+   'slick',
+   'counterup',
+   'waypoints','fancybox','theme'
       )
+
+
+
+
       .then(data => {
       //  console.log('loaded from shop', data);
       })
