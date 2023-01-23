@@ -1,7 +1,7 @@
 <header class="theme-main-menu sticky-menu theme-menu-four">
     <div class="inner-content">
         <div class="d-flex align-items-center">
-            <div class="logo order-lg-0"><a href="index.html" class="d-block"><img src="images/logo/logo_03.png" alt="" width="90"></a></div>
+            <div class="logo order-lg-0"><a  class="d-block"><img src="images/logo/logo_03.png" alt="" width="90"></a></div>
 
             <div class="right-widget d-flex align-items-center ms-auto order-lg-3">
                 <div class="call-button d-none d-xl-block me-5">Escribeme <a href="tel:+56932338523" target="_black">(+56) 9 3233 8523</a></div>
@@ -15,25 +15,25 @@
                  </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="d-block d-lg-none"><div class="logo"><a href=""><img src="images/logo/logo_01.png" alt="" width="130"></a></div></li>
+                        <li class="d-block d-lg-none"><div class="logo"><a><img src="images/logo/logo_01.png" alt="" width="130"></a></div></li>
                         <li class="nav-item active dropdown">
-                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Inicio</a>
+                            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Inicio</a>
                             
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Entrenamientos</a>
+                            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Entrenamientos</a>
                             <ul class="dropdown-menu">
-                                <li class="dropdown-submenu dropdown"><a class="dropdown-item" href="#memoria"><span>Memoria</span></a></li>
-                                <li><a href="#lectura" class="dropdown-item"><span>Lectura</span></a></li>
-                                <li><a href="#procesamiento" class="dropdown-item"><span>Procesamiento</span></a></li>
+                                <li class="dropdown-submenu dropdown"><a class="dropdown-item" [routerLink]="['#memoria']"><span>Memoria</span></a></li>
+                                <li><a [routerLink]="['#lectura']" class="dropdown-item"><span>Lectura</span></a></li>
+                                <li><a [routerLink]="['#procesamiento']" class="dropdown-item"><span>Procesamiento</span></a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">NPAD</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#npda"><span>Que es la neurociencia?</span></a></li>
-                                <li><a href="#beneficios"><span>Para que sirve?</span></a></li>
-                                <li><a href="#testimonios"><span>Testimonios</span></a></li>
+                                <li><a [routerLink]="['#npda']"> <span>Que es la neurociencia?</span></a></li>
+                                <li><a [routerLink]="['#beneficios']"> <span>Para que sirve?</span></a></li>
+                                <li><a [routerLink]="['#testimonioso']"> <span>Testimonios</span></a></li>
                             </ul>
                         </li>
                         
@@ -41,8 +41,8 @@
                     <!-- Mobile Content -->
                     <div class="mobile-content d-block d-lg-none">
                         <div class="d-flex flex-column align-items-center justify-content-center mt-70">
-                            <a href="#" class="send-msg-btn tran3s mb-10">Contactar</a>
-                            <div class="call-button">Llamar <a href="tel:+56932338523">(+56) 9 3233 8523</a></div>
+                            <a class="send-msg-btn tran3s mb-10">Contactar</a>
+                            <div class="call-button">Llamar <a href="tel:+56932338523" target="_blank">(+56) 9 3233 8523</a></div>
                         </div>
                     </div> <!-- /.mobile-content -->
                 </div>
