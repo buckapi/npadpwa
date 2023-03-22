@@ -59,12 +59,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xxl-6 col-md-7" >
-                            <a href="" class="slogan"><strong>Nuevo</strong> te enseño a usar tu cerebro, $20 EBOOK. <i class="fas fa-chevron-right"></i></a>
+                            <a href="#ebook" class="slogan"><strong>Nuevo</strong> te enseño a usar tu cerebro, E-book. <i class="fas fa-chevron-right"></i></a>
                             <h1 class="hero-heading">NPAD <strong>Neurociencia Aplicada a Destrezas </strong></h1>
                             <p class="text-lg mb-50 pt-40 pe-xl-5 md-pt-30 md-mb-40"><i>Tu mente te ha dado todo lo que tienes y te podrá dar todo lo que quieres</i></p>
                             <ul class="style-none button-group d-flex align-items-center">
-                                <li class="me-4"><a href="memoria.html" class="demo-btn ripple-btn tran3s">Entrenamiento</a></li>
-                                <li><a class="fancybox video-icon tran3s" data-fancybox="" href="https://www.youtube.com/embed/aXFSJTjVjw0"><i class="fas fa-play"></i></a></li>
+                                <li class="me-4"><a [routerLink]="['../memoria']" class="demo-btn ripple-btn tran3s">Entrenamiento</a></li>
+                                <li><a class="fancybox video-icon tran3s" data-fancybox="" href="http://aprendizajesinaptico.com/step/taller/?wvideo=66mx6xza6k"><i class="fas fa-play"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,13 +78,14 @@
                 <div class="shapes oval-one"></div>
             </div> 
 
-            <div class="pricing-section-one mt-130 lg-mt-110">
+            <div class="pricing-section-one mt-130 lg-mt-110" id="ebook">
 				<div class="container" data-aos="fade-up">
 					<div class="row">
 						<div class="col-xxl-7 col-xl-8 col-lg-7 col-md-9 m-auto">
 							<div class="title-style-one text-center">
 								<h2 class="main-title">Te enseño a usar el cerebro </h2>
                                 <p>Potenciamos tu rendimiento cerebral en la dirección que sea requerida</p>
+                                <p>Aprende a leer un libro por HORA</p>
                                    <p>
                                     ¿Quieres aprender cómo lograrlo?⏬ </p>
                                     <h6>Descarga la guia definitiva</h6> 
@@ -139,7 +140,7 @@
                                 </div> 
                                 <p class="pt-20 pb-25 lg-pb-20">Miles de personas en el mundo entero ya han notado la importancia de mantener su cerebro saludable y hacerlo rendir, tener agilidad mental, reducir el estrés, mejorar sus relaciones con los demás, usar su máximo potencial en aquello que ama.</p>
                                 
-                                <a href="#" class="btn-eight mt-50 lg-mt-30">Saber mas</a>
+                                <a [routerLink]="['../entrenamiento']" class="btn-eight mt-50 lg-mt-30">Quiero entrenar</a>
                             </div> <!-- /.block-style-two -->
                         </div>
                     </div>
