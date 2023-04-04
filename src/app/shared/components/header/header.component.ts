@@ -26,16 +26,7 @@ export class HeaderComponent implements AfterViewInit {
     public script:ScriptService,
     public router:Router
   ) {
-  this.categories=CATEGORIES
-    
-         this.script.load(     
-       'glightbox',
-          'swiper'
-      )
-      .then(data => {
-      //  console.log('loaded from shop', data);
-      })
-      .catch(error => console.log(error));
+  
    }
 
   config: SwiperOptions = {
