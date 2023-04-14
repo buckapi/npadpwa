@@ -1,0 +1,30 @@
+<div class="container">
+    Contador: {{contador}}  
+    <span >seleccionada {{seleccionada}}</span>
+    <span >Resultado {{result}}</span>
+    <button (click)="empezar()">empezar</button>
+    <div class="row" style="max-width: 800px">
+      <div class="col-md-6">
+
+        <div class="card-deck"  [hidden]="!visibles">
+          <div class="card rounded m-2 shadow-sm mx-2" *ngFor="let item of words, let i = index" >
+            <div class="card-body">
+              <h5 class="card-title"  [hidden]="contador===0">{{item}}</h5>
+              <h5 class="card-title"  [ngStyle]="i != select ? {'color': 'white'} : {}" [hidden]="contador!=0">{{item}}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+   
+        <div class="card-deck" [hidden]="!visibles">
+          <div class="card rounded m-2 shadow-sm mx-2" *ngFor="let item of words2, let i = index" (click)="set(i)" style="cursor: pointer;">
+            <div class="card-body">
+              <h5 class="card-title">{{item}}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from '@guards/auth.guard';
 
 const routes: Routes = [
-{ path:'', redirectTo: '/about', pathMatch:'full'},
+{ path:'', redirectTo: '/entrenamientos', pathMatch:'full'},
 { path: 'home', loadChildren: () => import('./components/pages/home/home.module').then(m => m.HomeModule),canActivate: [AuthGuard]},
 { path: 'login', loadChildren: () => import('./components/pages/login/login.module').then(m => m.LoginModule) },
 { path: 'notifications', loadChildren: () => import('./components/pages/notifications/notifications.module').then(m => m.NotificationsModule) },
@@ -28,6 +28,8 @@ const routes: Routes = [
 { path: 'account', loadChildren: () => import('./components/pages/account/account.module').then(m => m.AccountModule) },
 { path: 'succes', loadChildren: () => import('./components/pages/succes/succes.module').then(m => m.SuccesModule) },
 { path: 'terms', loadChildren: () => import('./components/pages/terms/terms.module').then(m => m.TermsModule) },
+{ path: 'memory', loadChildren: () => import('./components/pages/memory/memory.module').then(m => m.MemoryModule) },
+{ path: 'entrenamientos', loadChildren: () => import('./components/pages/entrenamientos/entrenamientos.module').then(m => m.EntrenamientosModule) },
  { path:'**',pathMatch:'full',redirectTo:'home'}
 ];
 

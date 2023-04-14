@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Butler } from '@app/services/butler.service';
 import { faMotorcycle } from '@fortawesome/free-solid-svg-icons'; 
+import { ActivatedRoute,Router } from '@angular/router';
+
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -9,7 +11,7 @@ import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 export class FooterComponent implements OnInit {
   faMotorcycle = faMotorcycle;  
   constructor(
-    public _butler:Butler
+    public _butler:Butler,private route: ActivatedRoute,router: Router
   ) { }
 
 public statusChange(){
