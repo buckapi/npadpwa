@@ -34,7 +34,7 @@ import { interval, Subscription } from 'rxjs';
     this.seleccionada=this.words2[i];
     if(this.words2[i]==this.words2O[this.select]){
       this.acierto=true;
-      this.result="acierto";
+      this.result="Acertado";
       this.results[i]=true;
     }
     else{

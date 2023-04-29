@@ -1,3 +1,18 @@
 .card-rounded {
     border-radius: 35%;
   }
+
+  @media (max-width: 767px) {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .columna {
+      width: 50%;
+    }
+  }
+  @media (min-width: 768px) {
+    .columna {
+      width: 50%;
+    }
+  }
