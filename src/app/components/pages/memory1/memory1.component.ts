@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { MemoryService } from '@services/memoryService.service';
 import { interval, Subscription } from 'rxjs';
 import { string } from 'yup/lib/locale';
-@Component({
-  selector: 'app-memory',
-  templateUrl: './memory.component.html',
-  styleUrls: ['./memory.component.css']
-})
 
-  export class MemoryComponent implements OnInit {
+@Component({
+  selector: 'app-memory1',
+  templateUrl: './memory1.component.html',
+  styleUrls: ['./memory1.component.css']
+})
+export class Memory1Component implements OnInit {
     words: string[] = [];
-    words2: string[] = [];
-    words2O: string[] = [];
+    words3: string[] = [];
+    words3O: string[] = [];
     results: boolean[] = [];
     visibles=false;
     visibleWords: string[] = [];
@@ -22,20 +22,18 @@ import { string } from 'yup/lib/locale';
     maxAttempts: number = 3;
     showWords: boolean = true;
     seleccionada:string="";
-    contador = 5;
+    contador = 10;
     subscription: Subscription;
     select=-1;
     acierto=false;
     result="";
-    level1:string="";
-    level2="";
-  
-  constructor(private memoryService: MemoryService) { 
+   
 
-  }
+  constructor(private memoryService: MemoryService) { }
+
   set(i:any){
-    this.seleccionada=this.words2[i];
-    if(this.words2[i]==this.words2O[this.select]){
+    this.seleccionada=this.words3[i];
+    if(this.words3[i]==this.words3O[this.select]){
       this.acierto=true;
       this.result="Acertado";
       this.results[i]=true;
@@ -44,9 +42,11 @@ import { string } from 'yup/lib/locale';
       this.result="Error";this.results[i]=false;
     }
   }
+
   ngOnDestroy() {
     this.subscription.unsubscribe();
   }
+
   empezar() {
    
     this.visibles=true;
@@ -57,7 +57,7 @@ import { string } from 'yup/lib/locale';
       } else {
         if (this.contador==0){
           this.select=Math.floor(Math.random() * 10);
-          this.words2=this.desordenarArray(this.words2);
+          this.words3=this.desordenarArray(this.words3);
           console.log("select: "+this.select);
         }
         this.subscription.unsubscribe();
@@ -71,17 +71,16 @@ import { string } from 'yup/lib/locale';
     }
     return array;
   }
- 
 
   ngOnInit() {
  
     this.memoryService.getWords().subscribe(data => {
-      this.words = data.palabras1;
-      this.words2 = data.palabras2;
+      this.words = data.palabras3;
+      this.words3 = data.palabras4;
     });
     
     this.memoryService.getWords().subscribe(data => {
-      this.words2O = data.palabras2;
+      this.words3O = data.palabras4;
     });
     setTimeout(() => {
      

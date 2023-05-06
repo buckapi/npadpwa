@@ -30,6 +30,8 @@ const routes: Routes = [
 { path: 'terms', loadChildren: () => import('./components/pages/terms/terms.module').then(m => m.TermsModule) },
 { path: 'memory', loadChildren: () => import('./components/pages/memory/memory.module').then(m => m.MemoryModule) },
 { path: 'entrenamientos', loadChildren: () => import('./components/pages/entrenamientos/entrenamientos.module').then(m => m.EntrenamientosModule) },
+{ path: 'memory1', loadChildren: () => import('./components/pages/memory1/memory1.module').then(m => m.Memory1Module) },
+{ path: 'memory2', loadChildren: () => import('./components/pages/memory2/memory2.module').then(m => m.Memory2Module) },
  { path:'**',pathMatch:'full',redirectTo:'home'}
 ];
 
