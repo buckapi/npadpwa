@@ -1,56 +1,55 @@
 
  
-<!--<app-header  ></app-header> --> 
-  <router-outlet></router-outlet>
-  
-  
+<app-header  ></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
 
-    <div class="footer-style-four theme-basic-footer" [hidden]="router.url.includes('memory')">
-        <div class="container">
-            <div class="inner-wrapper">
-               
-                <div class="row">
-                    <div class="col-lg-4 footer-intro mb-40">
-                        <div class="logo"><a ><img src="assets/assetsNpad/images/logo/logo_01.png" alt="" width="130"></a></div>
-                            <p>Entrenamientos neurocognitivos</p>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 ms-auto mb-30">
-                        <h5 class="footer-title">Enlaces</h5>
-                        <ul class="footer-nav-link style-none">
-                            <li><a href="https:/www.npadware.com" target="_blank">Inicio</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 ms-auto">
-                        <h5 class="footer-title">Contacto</h5>
-                        <ul class="footer-nav-link style-none">
-                            <li><a href="tel:56932338523" target="_black">+56 932 338 523</a></li>
-                            
-                        </ul>
-                        <p>Siguénos</p>
-                        <ul class="d-flex social-icon style-none">
-                            
-                            <li><a href="https://www.instagram.com/cknpad/?hl=es&fbclid=IwAR1V3v7c7uCzrh77zMAdfQkAluWivsZ1iq7ZVNS5urBwsSWIzcr_wQHHWX0" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            
-                        </ul>
-                    </div>
-                    
+<div class="footer-style-four theme-basic-footer" [hidden]="router.url.includes('memory')">
+    <div class="container">
+        <div class="inner-wrapper">
+           
+            <div class="row">
+                <div class="col-lg-4 footer-intro mb-40">
+                    <div class="logo"><a [routerLink]="['/']"><img src="assets/assetsNpad/images/logo/logo_01.png" alt="" width="130"></a></div>
+                        <p>Entrenamientos neurocognitivos</p>
                 </div>
-
-                <div class="bottom-footer">
-                    <div class="d-lg-flex justify-content-between align-items-center">
+                <div class="col-lg-4 col-sm-6 ms-auto mb-30">
+                    <h5 class="footer-title">Enlaces</h5>
+                    <ul class="footer-nav-link style-none">
+                        <li><a [routerLink]="['/']">Inicio</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 ms-auto">
+                    <h5 class="footer-title">Contacto</h5>
+                    <ul class="footer-nav-link style-none">
+                        <li><a href="tel:+5492216431369" target="_black">+54 9 2216 43-1369</a></li>
                         
-                        <p class="copyright text-center order-lg-0 pb-15">Copyright @2023 NPAD. Desarrollado por <a href="https://www.buckapi.us/" target="_black">Buckapi</a> </p>
-                    </div>
+                    </ul>
+                    <p>Siguénos</p>
+                    <ul class="d-flex social-icon style-none">
+                        
+                        <li><a href="https://www.instagram.com/cknpad/?hl=es&fbclid=IwAR1V3v7c7uCzrh77zMAdfQkAluWivsZ1iq7ZVNS5urBwsSWIzcr_wQHHWX0" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        
+                    </ul>
                 </div>
-            </div> 
-        </div>
+                
+            </div>
+
+            <div class="bottom-footer">
+                <div class="d-lg-flex justify-content-between align-items-center">
+                    
+                    <p class="copyright text-center order-lg-0 pb-15">Copyright @2023 NPAD. Desarrollado por <a href="https://www.buckapi.us/" target="_black">Buckapi</a> </p>
+                </div>
+            </div>
+        </div> 
     </div>
+</div>
 
-    <button class="scroll-top">
-        <i class="bi bi-arrow-up-short"></i>
-    </button>
+<button class="scroll-top">
+    <i class="bi bi-arrow-up-short"></i>
+</button>
 
-    <a href="https://wa.me/56932338523?text=Hola!!%20Quiero%20entrenar%20con%20NPAD" class="whatsapp" target="_blank" title="Hablemos por whatsapp !" style="color: white;"  [hidden]="router.url.includes('memory')"> 
-    <i class="fab fa-whatsapp"></i>
-    </a>
+<a href="https://wa.me/56932338523?text=Hola!!%20Quiero%20entrenar%20con%20NPAD" class="whatsapp" target="_blank" title="Hablemos por whatsapp !" style="color: white;"  [hidden]="router.url.includes('memory')"> 
+<i class="fab fa-whatsapp"></i>
+</a>
         
